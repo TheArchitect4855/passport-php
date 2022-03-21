@@ -13,25 +13,32 @@ Add the `passport.php` file to your PHP project and include it like any other fi
 
 Handling your landing page:
 ```php
-// TODO
+Passport::doLanding("/example/index.php");
 ```
 
 Authenticating a user:
 ```php
-// TODO
+$passport = new Passport();
+$passport->load();
 ```
 
 Logging a user out:
 ```php
-// TODO
+$passport = new Passport();
+$passport->logout();
 ```
 
 Creating, reading, updating, and deleting user data:
 ```php
-// TODO
+$passport = new Passport();
+$passport->add("foo", "bar"); // Creates some user data under the name "foo"
+echo($passport->get("foo")); // bar
+$passport->set("foo", "baz"); // foo is now "baz"
+echo($passport->get("foo")); // baz
+$passport->remove("foo");
 ```
 
-All functions throw excceptions on failure.
+All functions throw exceptions on failure.
 
 ## Support
 
