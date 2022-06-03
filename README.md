@@ -42,7 +42,7 @@ All functions throw exceptions on failure.
 
 ## Support
 
-You can contact me directly at [support@kurtisknodel.com](mailto:support@kurtisknodel.com).
+You can contact me directly at [kurtis@kurtisknodel.com](mailto:kurtis@kurtisknodel.com).
 
 ## Contributing
 
